@@ -8,7 +8,7 @@ import {
   Collapse,
   Avatar,
 } from "@material-tailwind/react";
-import { SimpleCard } from "./components/SimpleCard";
+
 import { MyTab } from "./components/MyTab";
 import { Networks } from "./components/Networks";
 import { Portfolio } from "./components/Portfolio";
@@ -80,7 +80,6 @@ export default function App() {
               size="sm"
               className="hidden lg:inline-block"
               color="purple"
-              
             >
               <a href="#contactSection">Contact</a>
             </Button>
@@ -125,7 +124,13 @@ export default function App() {
         </div>
         <Collapse open={openNav}>
           {navList}
-          <Button color="purple" variant="gradient" size="sm" fullWidth className="mb-2" >
+          <Button
+            color="purple"
+            variant="gradient"
+            size="sm"
+            fullWidth
+            className="mb-2"
+          >
             <a href="#contactSection">Contact</a>
           </Button>
         </Collapse>
@@ -133,7 +138,7 @@ export default function App() {
 
       <div className="ml-auto mr-auto px-4 w-full container lg:pt-8 sm:pt-14 grid lg:grid-cols-3 gap-4 animate-fade-down animate-once">
         <div div className="sm:col-span-3 lg:col-span-2 ">
-          <Typography variant="h1" color="white" >
+          <Typography variant="h1" color="white">
             Hello, I'm Andrea Pérez
           </Typography>
           <Typography variant="lead" color="white" className="opacity-70">
@@ -158,8 +163,11 @@ export default function App() {
         </div>
       </div>
 
-      <div id="portfolio" className="hover:animate-fade-up lg:py-7 flex-row text-center animate-fade-down animate-once">
-        <Typography  variant="h1" color="white">
+      <div
+        id="portfolio"
+        className="hover:animate-fade-up lg:py-7 flex-row text-center animate-fade-down animate-once"
+      >
+        <Typography variant="h1" color="white">
           My Portfolio
         </Typography>
       </div>
@@ -196,7 +204,10 @@ export default function App() {
           refe={"https://elated-liskov-47f1d8.netlify.app/"}
         />
       </div>
-      <div id="resumeSection" className="hover:animate-fade-up py-7 flex-row text-center">
+      <div
+        id="resumeSection"
+        className="hover:animate-fade-up py-7 flex-row text-center"
+      >
         <Typography variant="h1" color="white">
           Resume
         </Typography>
@@ -204,10 +215,13 @@ export default function App() {
       <MyTab />
 
       <ButtonFile />
-      <div id="contactSection" className="animate-fade-up lg:py-7 flex-row text-center">
+      <div
+        id="contactSection"
+        className="animate-fade-up lg:py-7 flex-row text-center"
+      >
         <Contact />
       </div>
-      <Reserved/>
+      <Reserved />
     </div>
   );
 }
