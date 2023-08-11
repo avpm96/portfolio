@@ -78,7 +78,7 @@ export function Education() {
         </TimelineItem>
       </Timeline>
       <Timeline>
-        <Typography variant="h4" className="py-2 text-cyan-100">
+        <Typography variant="h4" className="py-5 text-cyan-100">
           2020-2022
         </Typography>
         <TimelineItem>

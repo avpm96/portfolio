@@ -17,7 +17,7 @@ export function Experience() {
           <TimelineHeader className="h-3">
             <TimelineIcon />
             <Typography variant="h5" className="leading-none text-cyan-100">
-              Intern in Inter.
+              Intern at Inter.
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
@@ -38,7 +38,7 @@ export function Experience() {
           <TimelineHeader className="h-3">
             <TimelineIcon />
             <Typography variant="h5" className="leading-none text-cyan-100">
-              Frontend Developer in INCRESC
+              Frontend Developer at INCRESC
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
@@ -57,7 +57,7 @@ export function Experience() {
           <TimelineHeader className="h-3">
             <TimelineIcon />
             <Typography variant="h5" className="leading-none text-cyan-100">
-              Frontend Developer in Cipher Medical
+              Frontend Developer at Cipher Medical
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
@@ -74,7 +74,7 @@ export function Experience() {
           <TimelineHeader className="h-3">
             <TimelineIcon />
             <Typography variant="h5" className="leading-none text-cyan-100">
-              Frontend Developer in CLM Digital Solutions
+              Frontend Developer at CLM Digital Solutions
             </Typography>
           </TimelineHeader>
           <TimelineBody>
