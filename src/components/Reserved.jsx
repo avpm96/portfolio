@@ -8,7 +8,7 @@ export function Reserved() {
           Andrea Pérez
         </Typography>
         <Typography variant="small" color="white">
-        © 2023. All rights reserved by Andrea Pérez
+        © 2025. All rights reserved by Andrea Pérez
         </Typography>
       </div>
     </div>

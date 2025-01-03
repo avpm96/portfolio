@@ -16,8 +16,8 @@ export const SimpleCard = ({ title, subtitle, image }) => {
           className="relative h-56"
         >
           <img
-            h-full
-            w-full
+            
+            className="max-w-[100%] max-h-36"
             object-cover
             src={image}
             alt="ui/ux review check"

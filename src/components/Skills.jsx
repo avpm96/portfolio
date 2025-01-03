@@ -4,6 +4,7 @@ export function Skills() {
   return (
     <div className="grid grid-cols-1 gap-4 justify-items-center md:grid-cols-2 lg:grid-cols-5">
       <div className="flex gap-4 flex-col justify-items-center">
+        
         <Tooltip content="HTML" placement="right" className="text-black border border-blue-gray-50 bg-white px-4 py-3 shadow-xl shadow-black/10">
           <img
             className="h-20 w-20 rounded-full object-cover object-center "
@@ -64,10 +65,10 @@ export function Skills() {
             alt="nature image"
           />
         </Tooltip>
-        <Tooltip content="Bootstrap" placement="right" className="text-black border border-blue-gray-50 bg-white px-4 py-3 shadow-xl shadow-black/10">
+        <Tooltip content="DatoCms" placement="right" className="text-black border border-blue-gray-50 bg-white px-4 py-3 shadow-xl shadow-black/10">
           <img
             className="h-20 w-20 rounded-full object-cover object-center"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+            src="img/datocms.png"
             alt="nature image"
           />
         </Tooltip>
@@ -87,10 +88,10 @@ export function Skills() {
             alt="nature image"
           />
         </Tooltip>
-        <Tooltip content="Postman" placement="right" className="text-black border border-blue-gray-50 bg-white px-4 py-3 shadow-xl shadow-black/10">
+        <Tooltip content="Graphql" placement="right" className="text-black border border-blue-gray-50 bg-white px-4 py-3 shadow-xl shadow-black/10">
           <img
             className="h-20 w-20 rounded-full object-cover object-center"
-            src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png"
+            src="img/graphql.png"
             alt="nature image"
           />
         </Tooltip>

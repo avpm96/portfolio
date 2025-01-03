@@ -19,6 +19,27 @@ export function Experience() {
             <TimelineHeader className="h-3">
               <TimelineIcon />
               <Typography variant="h5" className="leading-none text-cyan-100">
+                Software Engineer FullStack developer at Designful
+                (Canada · Remote)
+              </Typography>
+            </TimelineHeader>
+            <TimelineBody className="pb-8">
+              <Typography className="text-cyan-100">
+                October 2024 - Present
+              </Typography>
+              <Typography variant="h5" className="font-normal text-white">
+                Program, change and maintain web pages in Shopify using  React, 
+                 Typescript. - Collaboration in the design and
+                development of websites and Testing .- Support in the migration of
+                sites to new platforms.
+              </Typography>
+            </TimelineBody>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineConnector />
+            <TimelineHeader className="h-3">
+              <TimelineIcon />
+              <Typography variant="h5" className="leading-none text-cyan-100">
                 Software Engineer FullStack developer at CXN Connections
                 Collective (Miami, Florida, United States · Remote)
               </Typography>
@@ -36,28 +57,32 @@ export function Experience() {
               </Typography>
             </TimelineBody>
           </TimelineItem>
-          <TimelineHeader className="h-3">
-            <TimelineIcon />
-            <Typography variant="h5" className="leading-none text-cyan-100">
-              Frontend Developer at CLM Digital Solutions(Chile · Remote)
-            </Typography>
-          </TimelineHeader>
-          <TimelineBody>
-            <Typography className="font-normal text-cyan-100">
-              November 2022 - Abril 2023
-            </Typography>
-            <Typography variant="h5" className="font-normal text-white">
-              Web application for the company CLM digital solutions , Landing
-              Page, users Management integrated, which were developed using
-              nextjs, reactjs, material-ui and Firebase
-            </Typography>
-          </TimelineBody>
+          <TimelineItem>
+            <TimelineHeader className="h-3">
+              <TimelineIcon />
+              <Typography variant="h5" className="leading-none text-cyan-100">
+                Frontend Developer at CLM Digital Solutions(Chile · Remote)
+              </Typography>
+            </TimelineHeader>
+            <TimelineBody>
+              <Typography className="font-normal text-cyan-100">
+                November 2022 - Abril 2023
+              </Typography>
+              <Typography variant="h5" className="font-normal text-white">
+                Web application for the company CLM digital solutions , Landing
+                Page, users Management integrated, which were developed using
+                nextjs, reactjs, material-ui and Firebase
+              </Typography>
+            </TimelineBody>
+          </TimelineItem>
+
           <TimelineItem>
             <TimelineConnector />
             <TimelineHeader className="h-3">
               <TimelineIcon />
               <Typography variant="h5" className="leading-none text-cyan-100">
-                Frontend Developer at Cipher Medical (Miami, Florida, United States · Remote)
+                Frontend Developer at Cipher Medical (Miami, Florida, United
+                States · Remote)
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">

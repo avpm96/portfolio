@@ -142,9 +142,9 @@ export default function App() {
             Hello, I'm Andrea Pérez
           </Typography>
           <Typography variant="lead" color="white" className="opacity-70">
-            I'm a Software Engineer, focused on Frontend development with +3
+            I'm a Software Engineer, focused on Frontend development with +4
             years of experience. I have developed and maintained responsive web
-            applications using Vue.js, TypeScript, React.js, Next.js. I
+            applications using  React.js, Next.js,  TypeScript,  Vue.js. I
             characterize myself for being committed and focused on technical
             growth. I am constantly learning, self-taught. In favor of always
             improving the performance and efficiency of the product by applying
@@ -168,11 +168,22 @@ export default function App() {
         className="hover:animate-fade-up lg:py-7 flex-row text-center animate-fade-down animate-once"
       >
         <Typography variant="h1" color="white">
-          My Portfolio
+        My portfolio and projects I worked on
         </Typography>
       </div>
 
       <div className="animate-fade-up py-5 lg:px-5 grid grid-cols-1 gap-4 self-end md:grid-cols-2 lg:grid-cols-3">
+      
+      <Portfolio
+          title={"Hello Goodies"}
+          image={"/img/hellogoodies.png"}
+          refe={"https://www.hellogoodies.com/"}
+        />
+         <Portfolio
+          title={"Airsculpt"}
+          image={"/img/airsculpt.png"}
+          refe={"https://airsculpt.com/"}
+        />
         <Portfolio
           title={"CLM digital solutions"}
           image={"/img/clm.png"}
